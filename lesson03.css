@@ -1,0 +1,88 @@
+
+/* Global Styles */
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+a{
+    color:white;
+}
+a:visited{
+    color:#3B633E;
+}
+a:hover{
+    color:#FF784F;
+}
+body{
+    color: #1B1F1D;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+img{
+    width: 300px;
+}
+h1{
+    font-size: 80px;
+    line-height: 1;
+    text-shadow: 2px 2px #68B06E;
+}
+h1, h2{
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    margin: 0;
+    font-style: italic;
+}
+h2{
+    font-size: 35px;
+}
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+/* Profile */
+header{
+    background-color: #3B633E;
+    color: white;
+}
+/* Projects */
+.projects{
+    background-color: #F1FDF2;
+}
+section{
+    overflow: hidden;
+}
+img {
+    float: left;
+    margin-right: 20px;
+}
+.projectitem h3{
+margin-top: 0;
+}
+/* Work Experience */
+.work-experience{
+    background-color:#68B06E;
+}
+/* Education*/
+.education {
+    background-color: #F1FDF2;
+}
+/* Contact Info */
+footer{
+    background-color: #3B633E;
+    color: white;
+}
+footer a:link{
+    color:white;
+}
+footer a:visited{
+    color:#68B06E;
+}
+footer a:hover{
+    color:#FF784F;
+}
